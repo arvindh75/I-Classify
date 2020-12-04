@@ -1,3 +1,0 @@
-[submodule "data/darknet"]
-	path = data/darknet
-	url = https://github.com/pjreddie/darknet

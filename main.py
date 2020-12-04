@@ -16,8 +16,8 @@ def classify_image(img_name):
 
 
 img = input("Enter image path: ")
-var = input("Enter 0 for tiny and 1 for large: ")
-if var != 0 or var != 1:
+var = int(input("Enter 0 for tiny and 1 for large: "))
+if var != 0 and var != 1:
     print("Wrong option, choosing tiny by default")
     var = 0
 
@@ -26,7 +26,7 @@ if var == 0:
         "cd data/darknet && ./darknet detect cfg/yolov3-tiny.cfg yolov3-tiny.weights ../../"
         + img
     )
-else:
+if var == 1:
     os.system(
         "cd data/darknet && ./darknet detect cfg/yolov3.cfg yolov3.weights ../../" + img
     )

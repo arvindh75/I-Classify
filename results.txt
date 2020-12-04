@@ -1,5 +1,5 @@
-49.48%: tricycle
-19.75%: jinrikisha
- 6.99%: swing
- 4.10%: golfcart
- 2.49%: motor scooter
+13.19%: menu
+10.06%: shoe shop
+ 8.74%: sunglasses
+ 3.77%: web site
+ 3.04%: cellular telephone
