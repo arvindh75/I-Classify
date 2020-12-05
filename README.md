@@ -8,3 +8,4 @@ Default option is tiny.
 - The resultant image will be stored `data/darknet/predictions.jpg` and the resultant text for classification using `darknet19.weights` will be stored in `results.txt`.
 ## Note
 Large weight model may take upto a minute to process depending on the resolution and complexity of the image on iGPU while it will take approximately half the time on a dGPU (Nvidia GTX 1650).
+Paper - J. Redmon and A. Farhadi. Yolov3: An incremental improvement. [arXiv ](https://arxiv.org/pdf/1804.02767.pdf), 2018.
